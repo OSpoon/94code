@@ -163,7 +163,7 @@ export default defineConfig({
 
 ## 在线体验
 
-<iframe style="width: 100%; background-color: #151617; border-radius: 8px; height: 480px;" src="https://1024code.com/embed-ide/@小鑫同学/444X3Zq"></iframe>
+<iframe style="margin: 10px auto;width: 80%; background-color: #151617; border-radius: 8px; height: 480px;" src="https://1024code.com/embed-ide/@小鑫同学/444X3Zq"></iframe>
 
 ## 总结
 
