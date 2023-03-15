@@ -9,6 +9,22 @@ export default defineConfig({
     base: '/',
     cacheDir: './node_modules/vitepress_cache',
     description: '94Code,小鑫同学,前端小鑫同学',
+    head: [
+        // 添加百度统计
+        [
+          "script",
+          {},
+          `
+            var _hmt = _hmt || [];
+            (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?c198ebe5b41ab313e8b0fcbe35430ecc";
+            var s = document.getElementsByTagName("script")[0]; 
+            s.parentNode.insertBefore(hm, s);
+            })();
+            `
+        ]
+    ],
     ignoreDeadLinks: true,
     themeConfig: {
         posts: await getPosts(pageSize),

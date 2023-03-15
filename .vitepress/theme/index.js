@@ -11,11 +11,19 @@ import './custom.css'
 export default {
     ...DefaultTheme,
     Layout: NewLayout,
-    enhanceApp({ app }) {
+    enhanceApp({ app, router }) {
         // register global compoment
         app.component('Tags', Tags)
         app.component('Archives', Archives)
         app.component('Page', Page)
         app.component('Comment', Comment)
+
+        router.onBeforeRouteChange = (path) => {
+            if (typeof _hmt != "undefined") {
+                if (path) {
+                  _hmt.push(["_trackPageview", path]);
+                }
+            }
+        };
     }
 }
