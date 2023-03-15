@@ -157,6 +157,10 @@ PS：代码参照[1024Code](https://1024code.com/codecubes/Ha1LfyC)中的code04�
 
 由于 ESBuild 天生不支持到 es5 的语法降级，所以在此 tsup 在此又选用了另一款编译框架来支持，那就是 `SWC`，一款由 `Rust` 编写的编译框架。在由 `esbuild` 将代码编译为 `es2020` 后由 `SWC` 接管语法降级部分再次编译降级为 `es5` 语法；
 
+## 在线体验
+
+<iframe style="width: 100%; background-color: #151617; border-radius: 8px; height: 480px;" src="https://1024code.com/embed-ide/@小鑫同学/Ha1LfyC"></iframe>
+
 ## 总结
 
 这一节的内容就到此结束了，代码压缩、模块拆分、树摇、捆绑格式及目标环境要在实际的情况下考虑是否要开启和关闭，在这一节还提到了 tsup 在遇到 esbuild 无能为力时的处理方式，那么你在开发中遇到这类问题是怎么解决的呢？
