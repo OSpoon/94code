@@ -39,8 +39,8 @@ export default defineConfig({
             { text: '首页', link: '/' },
             { text: '归档', link: '/pages/archives' },
             { text: '标签', link: '/pages/tags' },
-            { text: '关于', link: '/pages/about' }
-            // { text: 'Airene', link: 'http://airene.net' }  -- External link test
+            { text: '关于', link: '/pages/about' },
+            { text: '导航', link: 'https://it200.cn/navigate/' }
         ],
 
         //outline:[2,3],
