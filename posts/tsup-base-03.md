@@ -120,6 +120,7 @@ PS：代码参照[1024Code](https://1024code.com/codecubes/5uvlqfb)中的code04�
 ## 在线体验
 
 <iframe style="margin: 10px auto;width: 80%; background-color: #151617; border-radius: 8px; height: 480px;" src="https://1024code.com/embed-ide/@小鑫同学/5uvlqfb"></iframe>
+
 ## 总结
 
 这一节的内容就到此结束了，源码及一些简单的配置就不贴了，可以访问每个小节给出的地址查看，tsup 还剩最后一点知识就基本结束了，下一小节见~
