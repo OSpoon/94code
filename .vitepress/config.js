@@ -23,7 +23,14 @@ export default defineConfig({
             s.parentNode.insertBefore(hm, s);
             })();
             `
-        ]
+        ],
+        [
+            "meta",
+            {
+              "name": "referrer",
+              "content": "never"
+            }
+        ],
     ],
     ignoreDeadLinks: true,
     themeConfig: {
