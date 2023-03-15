@@ -1,6 +1,6 @@
 ---
 page: true
-title: home
+title: 94Code
 aside: false
 ---
 <script setup>
