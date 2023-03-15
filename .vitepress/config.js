@@ -44,7 +44,7 @@ export default defineConfig({
         ],
 
         //outline:[2,3],
-        outlineTitle: '文章摘要',
+        outlineTitle: '文章大纲',
         socialLinks: [{ icon: 'github', link: 'https://github.com/OSpoon/94code' }]
     },
     srcExclude: ['README.md'], // exclude the README.md , needn't to compiler
