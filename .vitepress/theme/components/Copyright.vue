@@ -1,8 +1,8 @@
 <template>
     <div class="site-footer">
-        MIT Licensed | Copyright © 2023-2024 <a class="vitepress" :href="website">{{ webTitle }}</a><br />
         Powered by <a class="vitepress" target="_blank" href="//github.com/OSpoon">前端小鑫同学</a>
-        Record No <a class="vitepress" target="_blank" href="//beian.miit.gov.cn/">晋ICP备15003329号-3</a>
+        Record No <a class="vitepress" target="_blank" href="//beian.miit.gov.cn/">晋ICP备15003329号-3</a><br />
+        MIT Licensed | Copyright © 2023-2024 <a class="vitepress" :href="website">{{ webTitle }}</a>
     </div>
 </template>
 <script lang="ts" setup>
