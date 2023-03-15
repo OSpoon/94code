@@ -3,6 +3,7 @@ date: 2023-02-06
 title: 构建工具tsup入门第一部分
 tags:
 - tsup
+- Build
 description: tsup 是一个基于 ESBuild 实现在零配置的情况下快速捆绑 Typescript 模块的项目，支持 Node.js 应用中的任何内容，如：.js、.json、.mjs，及 Typescript 中的 .ts、.tsx，还包括实验性的CSS。但在由于部分功能 esbuild 存在天然的不足，但又是开发者密切关注的功能，tsup 同时也选择融合其他的构建工具共同参与，这些内容会在后续的小节说明。
 ---
 
