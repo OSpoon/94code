@@ -25,7 +25,15 @@
 <script lang="ts" setup>
 import { withBase } from 'vitepress'
 const props = defineProps({
-    posts: Array,
+    posts: Array<{
+        regularPath: string,
+        frontMatter: {
+            title: string,
+            description: string,
+            date: string,
+            tags: string,
+        },
+    }>,
     pageCurrent: Number,
     pagesNum: Number
 })
