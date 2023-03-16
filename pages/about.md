@@ -1,7 +1,7 @@
 ---
 page: true
 title: About
-description: About me test
+description: Hi~我是小鑫同学
 aside: false
 ---
 
