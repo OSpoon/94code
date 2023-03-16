@@ -5,8 +5,6 @@ description: Hi~我是小鑫同学
 aside: false
 ---
 
-# Hi~我是小鑫同学
-
 ## **👋 Hi, I'm 小鑫同学**
 
 - ⚡InfoQ签约作者
