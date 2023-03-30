@@ -9,6 +9,7 @@ const props = defineProps({
       required: true
     }
 })
+console.log(props.url)
 </script>
 
 <style scoped>

@@ -117,9 +117,7 @@ cd code04 && npx tsup --env.NODE_ENV production
 
 PS：代码参照[1024Code](https://1024code.com/codecubes/5uvlqfb)中的code04部分；
 
-## 在线体验
-
-<iframe style="margin: 10px auto;width: 80%; background-color: #151617; border-radius: 8px; height: 480px;" src="https://1024code.com/embed-ide/@小鑫同学/5uvlqfb"></iframe>
+<PreviewCode url="https://1024code.com/embed-ide/@小鑫同学/5uvlqfb" />
 
 ## 总结
 

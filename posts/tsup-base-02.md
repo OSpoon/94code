@@ -158,9 +158,7 @@ PS：代码参照[1024Code](https://1024code.com/codecubes/Ha1LfyC)中的code04�
 
 由于 ESBuild 天生不支持到 es5 的语法降级，所以在此 tsup 在此又选用了另一款编译框架来支持，那就是 `SWC`，一款由 `Rust` 编写的编译框架。在由 `esbuild` 将代码编译为 `es2020` 后由 `SWC` 接管语法降级部分再次编译降级为 `es5` 语法；
 
-## 在线体验
-
-<iframe style="margin: 10px auto;width: 80%; background-color: #151617; border-radius: 8px; height: 480px;" src="https://1024code.com/embed-ide/@小鑫同学/Ha1LfyC"></iframe>
+<PreviewCode url="https://1024code.com/embed-ide/@小鑫同学/Ha1LfyC" />
 
 ## 总结
 

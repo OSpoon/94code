@@ -143,9 +143,7 @@ cd code04 && npm run dev
 
 PS：代码参照[1024Code](https://1024code.com/codecubes/qdVek07)中的code04部分；
 
-## 在线体验
-
-<iframe style="margin: 10px auto;width: 80%; background-color: #151617; border-radius: 8px; height: 480px;" src="https://1024code.com/embed-ide/@小鑫同学/qdVek07"></iframe>
+<PreviewCode url="https://1024code.com/embed-ide/@小鑫同学/qdVek07" />
 
 ## 总结
 
