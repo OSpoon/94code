@@ -151,6 +151,8 @@ const onMouseup = (event: MouseEvent) => {
 
 ![](https://temp-files-20221205.oss-cn-hangzhou.aliyuncs.com/picgo/202303291536694.gif)
 
+<PreviewCode url=“https://1024code.com/embed-ide/@小鑫同学/QPS7eMR” />
+
 ## 总结
 
 使用 mousemove、translate 在 Vue3 中实现可以随意拖拽的 Icon 的案例就完成了，在本次案例中需要认真思考对应的几个坐标和移动时坐标如何更新，事件的使用要成对出现，如何在这个拖拽的 Icon 上增加点击事件时还需要多做一些处理，有答案的朋友可以留下你的想法~
