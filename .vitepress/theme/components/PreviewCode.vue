@@ -1,5 +1,5 @@
 <template>
-    <h2><a :href="props.url">1024Code</a></h2>
+    <h2>在线预览</h2>
     <iframe class="container" :src="props.url"></iframe>
 </template>
 <script lang="ts" setup>
