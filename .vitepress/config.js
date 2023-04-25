@@ -19,7 +19,7 @@ export default defineConfig({
             (function() {
             var hm = document.createElement("script");
             hm.src = "https://hm.baidu.com/hm.js?c198ebe5b41ab313e8b0fcbe35430ecc";
-            var s = document.getElementsByTagName("script")[0]; 
+            var s = document.getElementsByTagName("script")[0];
             s.parentNode.insertBefore(hm, s);
             })();
             `
@@ -50,7 +50,7 @@ export default defineConfig({
             { text: '导航', link: 'https://it200.cn/navigate/' }
         ],
 
-        //outline:[2,3],
+        outline:[2,3],
         outlineTitle: '文章大纲',
         socialLinks: [{ icon: 'github', link: 'https://github.com/OSpoon/94code' }]
     },
